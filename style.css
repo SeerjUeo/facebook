@@ -1,0 +1,160 @@
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 40px;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+.header-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 3px 10px 0px;
+    color: white;
+    float: right;
+}
+
+.middle {
+    width: 60%;
+    align-content: center;
+    height: 600px;
+    /* background-color: brown; */
+}
+
+.right  {
+    width: 20%;
+    height: 600px;
+    padding-top: 85px;
+    /* background-color: aquamarine; */
+}
+
+.left {
+    width: 20%;
+    height: 600px;
+    /* background-color: blanchedalmond; */
+}
+
+.in-line {
+    display: flex;
+}
+
+.blue {
+    background-color:#4867AA;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.border-bottom {
+    border-bottom: 3px solid black;
+}
+
+.border-right {
+    border-right: 3px solid black;
+}
+
+.border-left {
+    border-left: 2px solid black;
+}
+
+.display-flex-right {
+    display: flex;
+    float: right;
+    padding-left: 550px;
+    align-items: center;
+}
+
+.avatar img {
+    height: 100px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.list-bullets {
+    list-style-type: none;
+}
+
+.list li{
+    transition: .5s;
+    padding: 2%;
+}
+
+.list li:hover{
+    width: 97%;
+    color:white;
+    background-color: #4867AA;
+}
+
+.round-border {
+    border-radius: 25px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.padding-left {
+    padding-left: 35px;
+}
+
+.share-padding {
+    padding: 0px 10px 0px;
+}
+
+.padding-top {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.share-input-padding {
+    padding: 5px 45px;
+    width: 92%;
+}
+
+.likes-comments {
+    background-color: lightskyblue;
+    color: white;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+
+.share-margins {
+    margin: 15px 0px;
+}
+
+.plans-input-padding {
+    margin: 2.8px 0px 7px 5px;
+    padding: 5px 0px;
+    width: 98%;
+}
+
+.ad-size img{
+    height: 100px;
+    padding: 10px;
+    margin-left: 75px;
+}
+
+.see-all {
+    float: right;
+    margin-top: -0.1px;  
+}
